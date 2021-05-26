@@ -1,0 +1,16 @@
+body * {
+    font-family: "Public Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  }
+  
+  body {
+    font-size: 1.125rem;
+  }
+  
+  p, li, .usa-intro {
+    line-height: 1.5;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }

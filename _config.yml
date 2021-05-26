@@ -1,0 +1,17 @@
+# Set a plain language title for the site.
+title: USWDS Template
+
+# Write a short description for the site. This is used for "meta description."
+description: Boilerplate for publishing U.S. Web Design System pages using the compiled framework on CDNJS
+
+# Set the language for the site. Used for "html lang." Default is English.
+lang: en
+
+# Add Google Analytics if needed. Replace placeholder with site ID.
+ga: UA-XXXXX-Y
+
+# Avoid GitHub API authentication when building locally. (Not working)
+github: [metadata]
+
+# Enable for live hosting on GitHub Pages
+baseurl: /uswds-template
