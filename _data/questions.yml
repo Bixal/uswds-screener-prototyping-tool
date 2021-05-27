@@ -3,18 +3,18 @@
   slug: recent-incident
   answers:
     - text: I believe the most recent incident was within the last six months.
-      path: question 2
+      path: question-2
     - text: I believe the most recent incident was over six months ago.
-      path: question 3
+      path: question-3
     - text: It is ongoing.
-      path: response A
+      path: response-a
 - number: 2
   text: Who is this complaint against?
   slug: complaint-against
   answers:
     - text: A Law Enforcement Agency
-      path: response B
+      path: question-1
     - text: Housing
-      path: response C
+      path: response-c
     - text: None of These
-      path: question 4
+      path: question-4

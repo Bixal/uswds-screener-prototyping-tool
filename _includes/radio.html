@@ -1,0 +1,12 @@
+{% assign items = site.data.questions | where: "number", page.number %}
+{% for item in items %}
+<fieldset class="usa-fieldset">    
+    <legend class="usa-legend font-sans-lg">{{ item.text }}</legend>
+    {% for answer in item.answers %}
+    <div class="usa-radio">
+        <input class="usa-radio__input usa-radio__input--tile" id="{{ item.slug }}{{ forloop.index }}" type="radio" name="{{ item.slug }}" value="{{ answer.path }}">
+        <label class="usa-radio__label" for="{{ item.slug }}{{ forloop.index }}">{{ answer.text }}</label>
+    </div>
+    {% endfor %}
+</fieldset>
+{% endfor %}
