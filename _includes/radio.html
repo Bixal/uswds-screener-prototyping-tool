@@ -1,7 +1,8 @@
 {% assign items = site.data.questions-yn | where: "number", page.number %}
 {% for item in items %}
-<fieldset class="usa-fieldset">    
+<fieldset class="usa-fieldset" id="question">    
     <legend class="usa-legend font-sans-lg">{{ item.text }}</legend>
+    <input type="hidden" id="previous-question" name="previous-question" value="{{ item.back }}">
     {% for answer in item.answers %}
     <div class="usa-radio">
         <input class="usa-radio__input usa-radio__input--tile" id="{{ item.slug }}{{ forloop.index }}" type="radio" name="{{ item.slug }}" value="{{ answer.path }}">

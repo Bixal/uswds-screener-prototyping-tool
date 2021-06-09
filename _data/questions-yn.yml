@@ -1,6 +1,7 @@
 - number: 1
   text: Who did this?
   slug: who
+  back: home
   answers:
     - text: "Yes"
       path: question-2
@@ -9,6 +10,7 @@
 - number: 2
   text: What 1?
   slug: what-1
+  back: question-1
   answers:
     - text: "Yes"
       path: question-3
@@ -17,6 +19,7 @@
 - number: 3
   text: What 2?
   slug: what-2
+  back: question-2
   answers:
     - text: "Yes"
       path: question-4
@@ -25,6 +28,7 @@
 - number: 4
   text: When did this happen?
   slug: what-2
+  back: question-3
   answers:
     - text: "Yes"
       path: success
