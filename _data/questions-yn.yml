@@ -1,0 +1,32 @@
+- number: 1
+  text: Who did this?
+  slug: who
+  answers:
+    - text: "Yes"
+      path: question-2
+    - text: "No"
+      path: exit-who
+- number: 2
+  text: What 1?
+  slug: what-1
+  answers:
+    - text: "Yes"
+      path: question-3
+    - text: "No"
+      path: exit-what-1
+- number: 3
+  text: What 2?
+  slug: what-2
+  answers:
+    - text: "Yes"
+      path: question-4
+    - text: "No"
+      path: exit-what-2
+- number: 4
+  text: When did this happen?
+  slug: what-2
+  answers:
+    - text: "Yes"
+      path: success
+    - text: "No"
+      path: exit-when
