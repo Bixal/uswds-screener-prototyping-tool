@@ -1,39 +1,12 @@
-<!doctype html>
-<html class="no-js" lang="{{site.lang}}">
-
-<head>
-  <meta charset="utf-8">
-  <title>{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.11.1/js/uswds-init.min.js" integrity="sha512-Zy/dqU71uCdMWS6VdSqc/+2RjOxbq/ySinrQyLG3wTVWSXtBQpK6/b2Ky6vT2JHuFsNm8yBZMJ8zeMQ/ji2qMA==" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.11.1/css/uswds.min.css" integrity="sha512-jTdlH2LXTQ/nSPgY0SoocLYibqnSu0B7/DM2cmA3jPrw89dbtZKeytKXDJPYlZpjkHfHUlTe/4MTGovdM73AJw==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="{{ site.baseurl}}/assets/css/custom.css" />
-</head>
-
-<body class="padding-y-3">
-    <main class="grid-container">
-        {% assign input = page.type %}
-        {% case input %}
-        {% when "radio" %}
-            {% include radio.html %}
-        {% else %}
-            This is not a cake nor a cookie
-        {% endcase %}
-        <a href="#back" id="backButton" class="usa-button usa-button--outline">Back</a> <a href="#next" id="nextButton" class="usa-button">Next</a>
-    </main>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.11.1/js/uswds.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="{{ site.baseurl}}/assets/js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', '{{ site.ga }}', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
-</html>
+{% include header.html %}
+  <main id="main-content" class="grid-container">
+    {% assign input = page.type %}
+    {% case input %}
+    {% when "radio" %}
+        {% include radio.html %}
+    {% else %}
+        This is not a cake nor a cookie
+    {% endcase %}
+    <a href="#back" id="backButton" class="usa-button usa-button--outline">Back</a> <a href="#next" id="nextButton" class="usa-button">Next</a>
+  </main>
+  {% include footer.html %}
