@@ -8,7 +8,14 @@
     {% else %}
         This is not a cake nor a cookie
     {% endcase %}
-    <a href="#back" id="backButton" class="usa-button usa-button--outline">Back</a> <a href="#next" id="nextButton" class="usa-button">Next</a>
+    <div class="grid-row grid-gap">
+      <div class="grid-col mobile-lg:grid-col-auto">
+        <a href="#back" id="backButton" class="usa-button usa-button--outline">Back</a>
+      </div>
+      <div class="grid-col mobile-lg:grid-col-auto">
+        <a href="#next" id="nextButton" class="usa-button">Next</a>
+      </div>
+    </div>
     {% include list-of-pages.html %}
   </main>
   {% include footer.html %}
