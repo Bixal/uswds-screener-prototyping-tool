@@ -1,7 +1,7 @@
 - number: 1
   text: Who did this?
   slug: who
-  back: home
+  back: index
   answers:
     - text: "Yes"
       path: question-2
