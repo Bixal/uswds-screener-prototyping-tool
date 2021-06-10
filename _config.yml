@@ -17,4 +17,4 @@ github: [metadata]
 theme: null
 
 # Enable for live hosting on GitHub Pages
-baseurl: /uswds-template
+baseurl: /complaint-screener
