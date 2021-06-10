@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
-# We uphold the health information privacy rights of all people in the United States.
+## We uphold the health information privacy rights of all people in the United States.
 
 The HHS Office of Civil Rights enforces federal laws that together protect your fundamental right to health information privacy.
 {: .usa-intro}
