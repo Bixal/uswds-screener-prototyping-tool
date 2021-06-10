@@ -1,0 +1,8 @@
+<hr>
+<p>List of pages for testing:</p>
+<ul>
+    {% for page in site.pages %}
+    <li><a href="{{ site.baseurl }}{{ page.url }}" class="usa-link">{{ page.title }}</a></li>
+    {% endfor %}
+</ul>
+
