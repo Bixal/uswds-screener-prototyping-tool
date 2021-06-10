@@ -6,7 +6,7 @@ $( document ).ready(function() {
     var selectedAnswer;
 
     // set the url of the back button using the data file
-    $('#backButton').attr('href', $('#previous-question').val());
+    $('#backButton').attr('href', $('#previous-question').val() + ".html");
     //this doesn't work on anchors
     $('#nextButton').prop('disabled', true); 
     // make the next button look disabled when the page loads
