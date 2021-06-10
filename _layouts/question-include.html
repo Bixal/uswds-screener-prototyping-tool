@@ -1,5 +1,6 @@
 {% include header.html %}
   <main id="main-content" class="grid-container">
+    {% include step-indicator.html %}
     {% assign input = page.type %}
     {% case input %}
     {% when "radio" %}
