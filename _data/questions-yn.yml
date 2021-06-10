@@ -1,36 +1,36 @@
 - number: 1
-  text: Who did this?
+  text: Is your complaint about a covered entity?
   slug: who
   back: index
   answers:
     - text: "Yes"
       path: question-2
-    - text: "No"
+    - text: "No, none of these apply"
       path: exit-who
 - number: 2
-  text: What 1?
+  text: Is your complaint about a request you made more than 30 days ago to access your health information?
   slug: what-1
   back: question-1
   answers:
-    - text: "Yes"
+    - text: "Yes, it has been more than 30 days "
       path: question-3
-    - text: "No"
+    - text: "No, it has been less than 30 days"
       path: exit-what-1
 - number: 3
-  text: What 2?
+  text: Does your complaint concern a violation of the security and privacy of your health information rights?
   slug: what-2
   back: question-2
   answers:
-    - text: "Yes"
+    - text: "Yes,  one or more of my rights were violated"
       path: question-4
-    - text: "No"
+    - text: "No, none of my rights were violated"
       path: exit-what-2
 - number: 4
-  text: When did this happen?
+  text: Has this incident occurred within the last 6 months?
   slug: what-2
   back: question-3
   answers:
-    - text: "Yes"
+    - text: "Yes, this incident has occurred with the last 6 months"
       path: success
-    - text: "No"
+    - text: "No, this incident occurred over 6 months ago"
       path: exit-when

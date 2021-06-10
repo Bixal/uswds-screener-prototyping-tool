@@ -5,7 +5,11 @@ number: 1
 type: radio
 ---
 
-Examples:
+**Examples of covered entities:**
 
-- example 1
-- example 2
+- Health care providers <br>
+(Doctors, clinics, psychologists, dentists, chiropractors, nursing homes, pharmacies)
+-  Health plans <br>
+(Health insurance companies, HMOs, company health plans, government health programs such as Medicare, Medicaid, and the military and veterans health care programs)
+- Health care clearinghouse <br>
+(Includes entities that process nonstandard health information they receive from another entity into a standard electronic form or data content, or vice versa)

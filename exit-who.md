@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: exit-who
 title: Exit Who
 ---
 
-# Exit who
+# Unfortunately, we can't complete your request.
 
-Explanation of why not to proceed after the who question.
+Here are some resources that could help with filing your complaint.

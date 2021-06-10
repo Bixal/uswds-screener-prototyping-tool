@@ -1,0 +1,89 @@
+{% include header.html %}
+  <main id="main-content" class="grid-container">
+    {% include step-indicator.html %}
+    {{ content }}
+    <div class="usa-accordion">
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="true"
+          aria-controls="a1">
+          Law Enforcement Agency
+        </button>
+      </h4>
+      <div id="a1" class="usa-accordion__content">
+        <p>related resources go here</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a2">
+          Housing
+        </button>
+      </h4>
+      <div id="a2" class="usa-accordion__content">
+        <p>related resources go here</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a3">
+          Social Security Administration
+        </button>
+      </h4>
+      <div id="a3" class="usa-accordion__content">
+        <p>related resources go here</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a4">
+          Life or Auto Insurance
+        </button>
+      </h4>
+      <div id="a4" class="usa-accordion__content">
+        <p>related resources go here</p>
+
+      </div>
+  
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a5">
+          Worker's Compensation Carrier
+        </button>
+      </h4>
+      <div id="a5" class="usa-accordion__content">
+        <p>related resources go here</p>
+
+      </div>
+
+      <!-- Use the accurate heading level to maintain the document outline -->
+      <h4 class="usa-accordion__heading">
+        <button class="usa-accordion__button"
+          aria-expanded="false"
+          aria-controls="a6">
+          United State's Postal Service
+        </button>
+      </h4>
+      <div id="a6" class="usa-accordion__content">
+        <p>related resources go here</p>
+
+      </div>
+  
+</div>
+    <a href="#back" id="backButton" class="usa-button usa-button--outline margin-top-3">Back</a>
+    {% include list-of-pages.html %}
+  </main>
+  {% include footer.html %}

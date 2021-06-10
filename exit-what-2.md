@@ -3,6 +3,6 @@ layout: default
 title: Exit What 2
 ---
 
-# Exit what 2
+# Unfortunately, we can’t complete your request.
 
-Explanation of why not to proceed after the second what question.
+The Department of Health and Human Service’s works only with health information-related violations pertaining to HIPAA. 
