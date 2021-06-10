@@ -13,5 +13,8 @@ ga: UA-XXXXX-Y
 # Avoid GitHub API authentication when building locally. (Not working)
 github: [metadata]
 
+# Remove generation of additional style.css
+theme: null
+
 # Enable for live hosting on GitHub Pages
 baseurl: /uswds-template
