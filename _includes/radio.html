@@ -1,7 +1,7 @@
 {% assign items = site.data.questions-yn | where: "number", page.number %}
 {% for item in items %}
 <fieldset class="usa-fieldset" id="question">    
-    <legend class="usa-legend">
+    <legend class="usa-legend maxw-tablet">
         <h1>
             {{ item.text }}
         </h1>
@@ -9,7 +9,7 @@
     </legend>
     <input type="hidden" id="previous-question" name="previous-question" value="{{ item.back }}">
     {% for answer in item.answers %}
-    <div class="usa-radio">
+    <div class="usa-radio maxw-tablet">
         <input class="usa-radio__input usa-radio__input--tile" id="{{ item.slug }}{{ forloop.index }}" type="radio" name="{{ item.slug }}" value="{{ answer.path }}">
         <label class="usa-radio__label" for="{{ item.slug }}{{ forloop.index }}">{{ answer.text }}</label>
     </div>
