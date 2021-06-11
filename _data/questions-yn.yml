@@ -13,9 +13,9 @@
   back: question-1
   answers:
     - text: "Yes, it has been more than 30 days "
+      path: success
+    - text: "No, it's about something else"
       path: question-3
-    - text: "No, it has been less than 30 days"
-      path: exit-what-1
 - number: 3
   text: Does your complaint concern a violation of the security and privacy of your health information rights?
   slug: what-2
