@@ -1,0 +1,26 @@
+<!doctype html>
+
+{% include header.html %}
+
+<body>
+
+  <main id="main-content">
+    <div class="grid-container padding-y-2">
+        {{ content }}
+        <div class="usa-accordion usa-accordion--bordered">
+            {% for resource in site.resources %}
+            <h2 class="usa-accordion__heading">
+                <button class="usa-accordion__button" aria-expanded="false" aria-controls="resource{{ forloop.index }}">
+                    {{ resource.title }}
+                </button>
+            </h2>
+            <div id="resource{{ forloop.index }}" class="usa-accordion__content">
+                {{ resource.content | markdownify }}
+            </div>
+            {% endfor %}
+        </div>
+        <a href="#back" id="backButton" class="usa-button usa-button--outline">Back</a>
+        {% include list-of-pages.html %}
+    </div>
+  </main>
+{% include footer.html %}
