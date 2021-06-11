@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: exit-what
 title: Exit What 2
+back: question-3.html
 ---
 
 # Unfortunately, we can’t complete your request.
