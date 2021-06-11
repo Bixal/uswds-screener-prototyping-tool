@@ -5,4 +5,6 @@ title: Exit What 2
 
 # Unfortunately, we can’t complete your request.
 
-The Department of Health and Human Service’s works only with health information-related violations pertaining to HIPAA. 
+To submit a complaint, at least one of the stated health rights must have been committed.
+
+[Learn more about complaints and appeals](https://www.hhs.gov/regulations/complaints-and-appeals/index.html).

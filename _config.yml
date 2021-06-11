@@ -1,5 +1,5 @@
 # Set a plain language title for the site.
-title: USWDS Template
+title: Complaint Screener
 
 # Write a short description for the site. This is used for "meta description."
 description: Boilerplate for publishing U.S. Web Design System pages using the compiled framework on CDNJS
@@ -18,3 +18,8 @@ theme: null
 
 # Enable for live hosting on GitHub Pages
 baseurl: /complaint-screener
+
+# Define content collections
+collections:
+  resources:
+    output: true
