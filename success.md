@@ -12,4 +12,8 @@ Based on your response, you’re able to file a complaint for a violation on you
 - Name of the individuals, organizations, or agencies involved.
 - Any additional information that may help when reviewing your complaint.
 
-**You will then need to electronically sign the complaint and complete the consent form. After completing the consent form you will be able to print out a copy of your complaint to keep for your records.**
+You will then need to electronically sign the complaint and complete the consent form.
+
+After completing the consent form you will be able to print out a copy of your complaint to keep for your records.
+
+<a href="javascript:history.back()" id="successBackButton" class="usa-button usa-button--outline">Back to questions</a><button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype. Thank you for playing! 😁">Proceed to Personal information section</button>
