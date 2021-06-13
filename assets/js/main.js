@@ -4,6 +4,7 @@ $( document ).ready(function() {
 
     // create a variable to hold the value of the selected answer
     var selectedAnswer;
+    console.log(selectedAnswer);
 
     // set the url of the back button using the data file
     $('#backButton').attr('href', $('#previous-question').val() + ".html");
@@ -13,7 +14,7 @@ $( document ).ready(function() {
     $('#nextButton').css('opacity', .5);
 
     // when a radio button is pressed...
-    $('#question input:radio').on('change', function() {
+    $('#question input:radio').on('click', function() {
 
         // set the variable to the value of the selected button
         var selectedAnswer = $(this).val();
