@@ -3,7 +3,16 @@ layout: default
 title: Success
 ---
 
-# Let's file your complaint.
+<div class="grid-row">
+    <div class="col-auto">
+        <svg class="usa-icon usa-icon--size-9 text-green" aria-hidden="true" focusable="false" role="img">
+            <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle_outline"></use>
+        </svg>
+    </div>
+    <div class="col-auto margin-left-1">
+        <h1>Let’s file your complaint.</h1>
+    </div>
+</div>
 
 Based on your response, you’re able to file a complaint for a violation on your health information. 
 
