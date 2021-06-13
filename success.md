@@ -25,4 +25,4 @@ You will then need to electronically sign the complaint and complete the consent
 
 After completing the consent form you will be able to print out a copy of your complaint to keep for your records.
 
-<button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype. Thank you for playing! 😁">Proceed to Personal information section</button>
+<button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype.😁">Proceed to Personal information section</button>
