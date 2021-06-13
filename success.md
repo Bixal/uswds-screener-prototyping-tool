@@ -5,7 +5,7 @@ title: Success
 
 <div class="grid-row">
     <div class="col-auto">
-        <svg class="usa-icon usa-icon--size-9 text-green" aria-hidden="true" focusable="false" role="img">
+        <svg class="usa-icon usa-icon--size-9 text-green margin-top-1" aria-hidden="true" focusable="false" role="img">
             <use xlink:href="{{ site.baseurl }}/assets/img/sprite.svg#check_circle_outline"></use>
         </svg>
     </div>
@@ -25,4 +25,11 @@ You will then need to electronically sign the complaint and complete the consent
 
 After completing the consent form you will be able to print out a copy of your complaint to keep for your records.
 
-<a href="javascript:history.back()" id="successBackButton" class="usa-button usa-button--outline">Back to questions</a><button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype. Thank you for playing! 😁">Proceed to Personal information section</button>
+<div class="grid-row grid-gap">
+    <div class="grid-col mobile-lg:grid-col-auto mobile-lg:margin-bottom-2 tablet:margin-bottom-0">
+        <a href="javascript:history.back()" id="successBackButton" class="usa-button usa-button--outline">Back to questions</a>
+    </div>
+    <div class="grid-col mobile-lg:grid-col-auto">
+        <button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype. Thank you for playing! 😁">Proceed to Personal information section</button>
+    </div>
+</div>
