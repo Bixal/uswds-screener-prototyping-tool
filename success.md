@@ -14,15 +14,17 @@ title: Success
     </div>
 </div>
 
-Based on your response, you’re able to file a complaint for a violation on your health information. 
+Based on your responses, we recommend you proceed with filing your complaint.
+{: .usa-intro}
 
-## What we will need from you:
-- Information about you, the complaintant.
-- Name of the individuals, organizations, or agencies involved.
-- Any additional information that may help when reviewing your complaint.
+## What we will need from you
+- Your **personal information**
+- **Complaint details**, including the names of any individuals, organizations, or agencies involved.
+- Any **supporting documentation** that may help when reviewing your complaint.
+- Your **electronic signature** and consent.
 
-You will then need to electronically sign the complaint and complete the consent form.
+## What happens next
+- After completing each section and submitting the complaint, you will be able to print out a copy of your complaint to keep for your records.
+- We will review the complaint and send you a written response within 30 days.
 
-After completing the consent form you will be able to print out a copy of your complaint to keep for your records.
-
-<button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype.😁">Proceed to Personal information section</button>
+<button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype.😁">Proceed to next section</button>
