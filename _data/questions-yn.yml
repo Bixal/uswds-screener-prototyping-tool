@@ -1,9 +1,9 @@
 - number: 1
-  text: Is your complaint about individuals, organizations, or agencies that comply with HIPAA laws to protect the privacy and security of your health information?
+  text: Is your complaint about a healthcare provider, insurance provider, or data processing company?
   slug: who
   back: index
   answers:
-    - text: "Yes"
+    - text: "Yes, it is"
       path: question-2
     - text: "No, none of these apply"
       path: exit-who
