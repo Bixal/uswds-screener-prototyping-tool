@@ -5,11 +5,8 @@ number: 1
 type: radio
 ---
 
-**Examples of individuals, organizations, or agencies that must comply with HIPAA laws:**
+**Timeline for requesting your health information:**
 
-- Health care providers<br>
-(Doctors, clinics, psychologists, dentists, chiropractors, nursing homes, pharmacies)
--  Health plans<br>
-(Health insurance companies, HMOs, company health plans, government health programs such as Medicare, Medicaid, and the military and veterans health care programs)
-- Health care clearinghouse<br>
-(billing services, repricing companies, community health management information systems, and value-added networks)
+If you are requesting access to a copy of your health insurance information, your health plan or provider has up to 30 days (sometimes more) to provide the information. Your health insurance plan or provider may require that you make your request in writing.
+
+[Learn more about your right to access your medical record](https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html).

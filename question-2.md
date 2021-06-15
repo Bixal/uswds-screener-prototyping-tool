@@ -5,8 +5,17 @@ number: 2
 type: radio
 ---
 
-**Timeline for requesting your health information:**
-
-If you are requesting access to a copy of your health insurance information, your health plan or provider has up to 30 days (sometimes more) to provide the information. Your health insurance plan or provider may require that you make your request in writing.
-
-[Learn more about your right to access your medical record](https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html).
+<div class="usa-accordion margin-bottom-2">
+    <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="a1">
+            See examples of these providers covered under federal law
+        </button>
+    </h2>
+    <div id="a1" class="usa-accordion__content">
+        <ul>
+            <li><strong>Healthcare providers</strong> include individuals and organizations such as doctors, nurses, clinics, hospitals, psychologists, dentists, chiropractors, nursing homes, and pharmacies.</li>
+            <li><strong>Insurance providers</strong> include public and private organizations such as health insurance companies, HMOs, company health plans, as well as government health programs such as Medicare, Medicaid, and the military and veterans health care programs.</li>
+            <li><strong>Data processing companies</strong> include organizations that provide payment and data services such as billing companies, repricing companies, community health management information systems, and value-added networks.</li>
+        </ul>
+    </div>
+</div>

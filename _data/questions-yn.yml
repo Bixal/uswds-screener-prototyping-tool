@@ -1,21 +1,21 @@
 - number: 1
-  text: Is your complaint about individuals, organizations, or agencies that comply with HIPAA laws to protect the privacy and security of your health information?
+  text: Is your complaint about a request you made more than 30 days ago to access your health information?
   slug: who
   back: index
   answers:
-    - text: "Yes"
+    - text: "Yes, it has been more than 30 days"
+      path: success
+    - text: "No, it's about something else"
       path: question-2
-    - text: "No, none of these apply"
-      path: exit-who
 - number: 2
-  text: Is your complaint about a request you made more than 30 days ago to access your health information?
+  text: Is your complaint about a healthcare provider, insurance provider, or data processing company?
   slug: what-1
   back: question-1
   answers:
-    - text: "Yes, it has been more than 30 days "
-      path: success
-    - text: "No, it's about something else"
+    - text: "Yes, it is"
       path: question-3
+    - text: "No,  none of these apply"
+      path: exit-who
 - number: 3
   text: Does your complaint concern a violation of the security and privacy of your health information rights?
   slug: what-2
