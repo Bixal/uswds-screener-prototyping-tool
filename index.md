@@ -13,4 +13,4 @@ If you believe your health information privacy rights, or someone else’s, have
 
 [File a complaint](question-1.html){: .usa-button .usa-button--big}
 
-[Learn more about your health information privacy rights](https://www.hhs.gov/hipaa/for-individuals/guidance-materials-for-consumers/index.html){: .usa-link} (hhs.gov)
+[Learn more about your health information privacy rights](https://www.hhs.gov/hipaa/for-individuals/guidance-materials-for-consumers/index.html){: .usa-link}{:target="_blank" rel="noopener"} (hhs.gov)
