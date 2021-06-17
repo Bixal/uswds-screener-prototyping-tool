@@ -10,11 +10,11 @@ title: Success
         </svg>
     </div>
     <div class="col-auto margin-left-1">
-        <h1>Let’s file your complaint.</h1>
+        <h1><span class="text-italic">Before you file</span> section complete. Let’s continue…</h1>
     </div>
 </div>
 
-Based on your responses, we recommend you proceed with filing your complaint.
+Based on your responses so far, we recommend you proceed with filing your complaint.
 {: .usa-intro}
 
 ## What we will need from you
