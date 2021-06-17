@@ -1,8 +1,8 @@
 # Set a plain language title for the site.
-title: Complaint Screener
+title: USGov Health Information Rights Complaint Form
 
 # Write a short description for the site. This is used for "meta description."
-description: Boilerplate for publishing U.S. Web Design System pages using the compiled framework on CDNJS
+description: File a complaint for violations of health information privacy and access rights
 
 # Set the language for the site. Used for "html lang." Default is English.
 lang: en
