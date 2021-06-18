@@ -1,5 +1,5 @@
 ---
-layout: exit-who
+layout: exit
 title: Exit Who
 back: question-1.html
 ---
