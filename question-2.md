@@ -12,6 +12,7 @@ type: radio
         </button>
     </h2>
     <div id="a1" class="usa-accordion__content">
+        <h3>Please note: Your case may still be considered a HIPAA violation even if it is not listed as an example. If you are unsure, please review the resources below.</h3>
         <ul>
             <li><strong>Unauthorized disclosures of protected health information</strong></li>
                 <ul>
@@ -39,7 +40,7 @@ type: radio
                     </li>
                 </ul>
         </ul>
-        <h2>Resources</h2>
+        <h3>Resources</h3>
         <p><a href="https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/data/enforcement-highlights/index.html">HHS All Case Examples</a></p>
         <p><a href="https://www.hipaajournal.com/common-hipaa-violations/">Common HIPAA Violations</a></p>
         <p><a href="https://www.hhs.gov/hipaa/for-individuals/guidance-materials-for-consumers/index.html">Learn more about your rights under HIPAA</a></p>
