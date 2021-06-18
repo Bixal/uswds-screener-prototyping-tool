@@ -16,6 +16,8 @@
       path: question-3
     - text: "A request I made more than 30 days ago to access my health information"
       path: success
+    - text: "It's about something else"
+      path: exit-what-2
 - number: 3
   text: Has this incident occurred within the last 6 months?
   slug: when
