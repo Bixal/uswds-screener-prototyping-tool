@@ -1,7 +1,21 @@
 {% include header.html %}
 <main id="main-content" class="grid-container">
     {{ content }}
-    <a href="{{ page.back }}" id="exitBackButton" class="usa-button usa-button--outline">Back to question</a><button
+    {% if page.title == "Exit Who" %}
+    <div class="usa-accordion usa-accordion--bordered">
+        {% for resource in site.resources %}
+        <h2 class="usa-accordion__heading">
+            <button class="usa-accordion__button" aria-expanded="false" aria-controls="resource{{ forloop.index }}">
+                {{ resource.title }}
+            </button>
+        </h2>
+        <div id="resource{{ forloop.index }}" class="usa-accordion__content">
+            {{ resource.content | markdownify }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <a href="{{ page.back }}" id="exitBackButton" class="margin-top-3 usa-button usa-button--outline">Back to question</a><button
         class="usa-button ">Continue to filing</button>
     <!-- {% include list-of-pages.html %} -->
 </main>
