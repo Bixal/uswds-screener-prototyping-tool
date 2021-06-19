@@ -1,5 +1,5 @@
 ---
-layout: exit-when
+layout: exit
 title: Exit When
 back: question-3.html
 ---

@@ -1,5 +1,5 @@
 ---
-layout: exit-what
+layout: exit
 title: Exit What 2
 back: question-2.html
 ---

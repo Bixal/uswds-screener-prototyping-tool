@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: exit
 title: Exit What 1
 ---
 
