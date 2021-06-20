@@ -12,11 +12,11 @@
   slug: what-2
   back: question-1
   answers:
-    - text: "One or more of my rights were violated"
+    - text: "My privacy rights were violated"
       path: question-3
-    - text: "A request I made more than 30 days ago to access my health information"
+    - text: "I have not been given access to my medical records after a request over 30 days ago"
       path: success
-    - text: "It's about something else"
+    - text: "It’s about something else"
       path: exit-what-2
 - number: 3
   text: Has this incident occurred within the last 6 months?

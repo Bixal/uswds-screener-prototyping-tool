@@ -19,9 +19,9 @@ Based on your responses so far, we recommend you proceed with filing your compla
 
 ## What we will need from you
 - Your **personal information**
-- **Complaint details**, including the names of any individuals, organizations, or agencies involved.
-- Any **supporting documentation** that may help when reviewing your complaint.
-- Your **electronic signature** and consent.
+- **Complaint details**, including the names of any individuals, organizations, or agencies involved
+- Any **supporting documentation** that may help when reviewing your complaint
+- Your **electronic signature** and consent
 
 ## What happens next
 - After completing each section and submitting the complaint, you will be able to print out a copy of your complaint to keep for your records.
