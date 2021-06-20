@@ -2,7 +2,7 @@
 <main id="main-content" class="grid-container">
     {{ content }}
     {% if page.title == "Exit Who" %}
-    <div class="usa-accordion usa-accordion--bordered">
+    <div class="usa-accordion margin-bottom-2">
         {% for resource in site.resources %}
         <h2 class="usa-accordion__heading">
             <button class="usa-accordion__button" aria-expanded="false" aria-controls="resource{{ forloop.index }}">
@@ -15,8 +15,13 @@
         {% endfor %}
     </div>
     {% endif %}
-    <a href="{{ page.back }}" id="exitBackButton" class="margin-top-3 usa-button usa-button--outline">Back to question</a><button
-        class="usa-button ">Continue to filing</button>
-    <!-- {% include list-of-pages.html %} -->
+    <div class="grid-row">
+        <div class="grid-col mobile-lg:grid-col-auto padding-right-05">
+          <a href="{{ page.back }}" id="exitBackButton" class="usa-button usa-button--outline">Back to question</a>
+        </div>
+        <div class="grid-col mobile-lg:grid-col-auto padding-left-05">
+            <button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype.😁">Continue to filing</button>
+        </div>
+    </div>
 </main>
 {% include footer.html %}
