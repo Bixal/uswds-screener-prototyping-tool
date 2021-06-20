@@ -41,10 +41,12 @@ type: radio
                 </ul>
         </ul>
         <h3>Resources</h3>
-        <p><a href="https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/data/enforcement-highlights/index.html">HHS All Case Examples</a></p>
-        <p><a href="https://www.hipaajournal.com/common-hipaa-violations/">Common HIPAA Violations</a></p>
-        <p><a href="https://www.hhs.gov/hipaa/for-individuals/guidance-materials-for-consumers/index.html">Learn more about your rights under HIPAA</a></p>
-        <p><a href="https://www.hhs.gov/hipaa/for-professionals/index.html">Learn more about HIPAA for Professionals</a></p>
+        <ul>
+            <li><a href="https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/data/enforcement-highlights/index.html" class="usa-link" target="_blank">HHS All Case Examples</a></li>
+            <li><a href="https://www.hipaajournal.com/common-hipaa-violations/" class="usa-link" target="_blank">Common HIPAA Violations</a></li>
+            <li><a href="https://www.hhs.gov/hipaa/for-individuals/guidance-materials-for-consumers/index.html" class="usa-link" target="_blank">Your rights under HIPAA</a></li>
+            <li><a href="https://www.hhs.gov/hipaa/for-professionals/index.html" class="usa-link" target="_blank">HIPAA for Professionals</a></li>
+        </ul>
     </div>
     <h2 class="usa-accordion__heading">
         <button class="usa-accordion__button" aria-expanded="false" aria-controls="a2">
@@ -52,10 +54,8 @@ type: radio
         </button>
     </h2>
     <div id="a2" class="usa-accordion__content">
-        <p>
-            If you are requesting access to a copy of your health insurance information, your health plan or provider has up to 30 days (sometimes more) to provide the information. Your health insurance plan or provider may require that you make your request in writing.
-            <p><a href="https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html">Learn more about your right to access your medical record.</a></p>
-            <p><a href="https://www.hhs.gov/sites/default/files/righttoaccessmemo.pdf?language=en">Send a Right to Access Notice to your provider or health insurance plan</a></p>
-        </p>
+        <p>If you are requesting access to a copy of your health insurance information, your health plan or provider has up to 30 days (sometimes more) to provide the information. Your health insurance plan or provider may require that you make your request in writing.</p>
+        <p><a href="https://www.hhs.gov/hipaa/for-individuals/medical-records/index.html">Learn more about your right to access your medical record</a></p>
+        <p><a href="https://www.hhs.gov/sites/default/files/righttoaccessmemo.pdf?language=en">Send a Right to Access Notice to your provider or health insurance plan</a></p>
     </div>
 </div>

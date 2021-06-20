@@ -8,7 +8,7 @@ back: question-2.html
 
 Based on your response, we're not sure if our department will be able to handle your concern.
 
-[Learn more about complaints and appeals](https://www.hhs.gov/regulations/complaints-and-appeals/index.html). 
+[Learn more about complaints and appeals](https://www.hhs.gov/regulations/complaints-and-appeals/index.html){: .usa-link} 
 
 ## Common examples that do not violate HIPAA laws
 Please note: These are the most common examples. If you are unsure or have questions concerning these examples, please contact our department so we may better assist you. 
