@@ -1,6 +1,6 @@
 ---
 title: Housing
-question: q1
+related-page-name: q1-exit.md
 ---
 
 Report a violation of Fair Housing and Equal Opportunity (FHEO) rights:

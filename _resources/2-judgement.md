@@ -1,6 +1,6 @@
 ---
 title: Healthcare provider’s professional judgement
-question: q2
+related-page-name: q2-exit.md
 ---
 
 If you are not around or cannot give permission, your health care provider may share or discuss your health information with family, friends, or others involved in your care or payment for your care if he or she believes, in his or her professional judgment, that it is in your best interest.

@@ -2,7 +2,7 @@
 layout: exit
 title: Exit Question 1
 back: question-1.html
-resources: q1
+resources: yes
 ---
 
 # Unfortunately, we can't complete your request.

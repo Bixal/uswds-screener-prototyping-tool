@@ -6,6 +6,9 @@
             {{ item.text }}
         </h1>
         {{ content }}
+        {% if page.resources %}
+            {% include resource-accordion.html %}
+        {% endif %}
     </legend>
     <input type="hidden" id="previous-question" name="previous-question" value="{{ item.back }}">
     {% for answer in item.answers %}

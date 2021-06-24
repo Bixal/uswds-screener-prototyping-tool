@@ -1,6 +1,6 @@
 ---
 title: Social Security Administration
-question: q1
+related-page-name: q1-exit.md
 ---
 
 Discrimination against qualified individuals with disabilities:

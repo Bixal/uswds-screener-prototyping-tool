@@ -1,6 +1,6 @@
 ---
 title: Permission to share your information
-question: q2
+related-page-name: q2-exit.md
 ---
 
 As long as you do not object, your health care provider is allowed to share or discuss your health information with your family, friends, or others involved in your care or payment for your care.

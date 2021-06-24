@@ -1,6 +1,6 @@
 ---
 title: Worker’s Compensation Carrier
-question: q1
+related-page-name: q1-exit.md
 ---
 
 The U.S. Department of Labor:
