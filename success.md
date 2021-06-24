@@ -10,7 +10,7 @@ title: Success
         </svg>
     </div>
     <div class="col-auto margin-left-1">
-        <h1><span class="text-italic">Before you file</span> section complete. Let’s continue…</h1>
+        <h1>This section is complete. Let’s continue…</h1>
     </div>
 </div>
 
