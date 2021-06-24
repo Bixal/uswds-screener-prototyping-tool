@@ -1,24 +1,43 @@
 <div class="usa-step-indicator margin-top-1 margin-bottom-0 border-bottom-1px padding-bottom-2 border-base-light" aria-label="progress">
-    <ol class="usa-step-indicator__segments">
-      <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
-        <span class="usa-step-indicator__segment-label">Before you file<span class="usa-sr-only">completed</span></span>
-      </li>
-      <li class="usa-step-indicator__segment">
-        <span class="usa-step-indicator__segment-label">Personal information<span class="usa-sr-only">completed</span></span>
-      </li>
-      <li class="usa-step-indicator__segment" aria-current="true">
-        <span class="usa-step-indicator__segment-label">Complaint details</span>
-      </li>
-      <li class="usa-step-indicator__segment">
-        <span class="usa-step-indicator__segment-label">Supporting documentation<span class="usa-sr-only">not completed</span></span>
-      </li>
-      <li class="usa-step-indicator__segment">
-        <span class="usa-step-indicator__segment-label">Sign and submit <span class="usa-sr-only">not completed</span></span>
-      </li>
-    </ol>
-    <div class="usa-step-indicator__header">
-      <span class="usa-step-indicator__heading tablet:display-none font-sans-md text-primary">
-        <span class="usa-step-indicator__heading-text">Before you file</span>
-      </span>
-    </div>
+  <ol class="usa-step-indicator__segments">
+    {% for step in site.steps %}
+    {% assign item = step.status %}
+    {% case item %}
+    {% when "completed" %}
+    <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
+      <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">completed</span></span>
+    </li>
+    {% when "current" %}
+    <li class="usa-step-indicator__segment usa-step-indicator__segment--current"
+    aria-current="true">
+      <span class="usa-step-indicator__segment-label">{{ step.label }}</span>
+    </li>
+    {% when "not completed" %}
+    <li class="usa-step-indicator__segment">
+      <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">not completed</span></span>
+    </li>
+    {% endcase %}
+    {% endfor %}
+    <!-- <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
+      <span class="usa-step-indicator__segment-label">Before you file<span class="usa-sr-only">completed</span></span>
+    </li>
+    <li class="usa-step-indicator__segment">
+      <span class="usa-step-indicator__segment-label">Personal information<span class="usa-sr-only">completed</span></span>
+    </li>
+    <li class="usa-step-indicator__segment" aria-current="true">
+      <span class="usa-step-indicator__segment-label">Complaint details</span>
+    </li>
+    <li class="usa-step-indicator__segment">
+      <span class="usa-step-indicator__segment-label">Supporting documentation<span class="usa-sr-only">not completed</span></span>
+    </li>
+    <li class="usa-step-indicator__segment">
+      <span class="usa-step-indicator__segment-label">Sign and submit <span class="usa-sr-only">not completed</span></span>
+    </li> -->
+  </ol>
+  <div class="usa-step-indicator__header">
+    <span class="usa-step-indicator__heading tablet:display-none font-sans-md text-primary">
+      {% assign currentStep = site.steps | where: "step.status", "current" %}
+      <span class="usa-step-indicator__heading-text">{{ currentStep }}</span>
+    </span>
   </div>
+</div>
