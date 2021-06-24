@@ -1,0 +1,13 @@
+{% assign currentResources = site.resources | where: "related-page-name", page.name %}
+<div class="usa-accordion margin-bottom-2">
+    {% for resource in currentResources %}
+    <h2 class="usa-accordion__heading">
+        <button class="usa-accordion__button" aria-expanded="false" aria-controls="resource{{ forloop.index }}">
+            {{ resource.title }}
+        </button>
+    </h2>
+    <div id="resource{{ forloop.index }}" class="usa-accordion__content">
+        {{ resource.content | markdownify }}
+    </div>
+    {% endfor %}
+</div>

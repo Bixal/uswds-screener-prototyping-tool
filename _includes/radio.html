@@ -1,4 +1,4 @@
-{% assign items = site.data.questions-yn | where: "number", page.number %}
+{% assign items = site.data.questions | where: "number", page.number %}
 {% for item in items %}
 <fieldset class="usa-fieldset" id="question">    
     <legend class="usa-legend maxw-tablet">
@@ -6,6 +6,9 @@
             {{ item.text }}
         </h1>
         {{ content }}
+        {% if page.resources %}
+            {% include resource-accordion.html %}
+        {% endif %}
     </legend>
     <input type="hidden" id="previous-question" name="previous-question" value="{{ item.back }}">
     {% for answer in item.answers %}

@@ -1,19 +1,8 @@
 {% include header.html %}
 <main id="main-content" class="grid-container">
     {{ content }}
-    {% if page.title == "Exit Who" %}
-    <div class="usa-accordion margin-bottom-2">
-        {% for resource in site.resources %}
-        <h2 class="usa-accordion__heading">
-            <button class="usa-accordion__button" aria-expanded="false" aria-controls="resource{{ forloop.index }}">
-                {{ resource.title }}
-            </button>
-        </h2>
-        <div id="resource{{ forloop.index }}" class="usa-accordion__content">
-            {{ resource.content | markdownify }}
-        </div>
-        {% endfor %}
-    </div>
+    {% if page.resources %}
+        {% include resource-accordion.html %}
     {% endif %}
     <div class="grid-row">
         <div class="grid-col mobile-lg:grid-col-auto padding-right-05">
