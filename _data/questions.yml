@@ -6,10 +6,10 @@
     - text: "Yes, it is"
       path: question-2
     - text: "No,  none of these apply"
-      path: exit-who
+      path: exit-question-1
 - number: 2
   text: What is the main concern of your complaint?
-  slug: what-2
+  slug: what
   back: question-1
   answers:
     - text: "My privacy rights were violated"
@@ -17,7 +17,7 @@
     - text: "I have not been given access to my medical records after a request over 30 days ago"
       path: success
     - text: "It’s about something else"
-      path: exit-what-2
+      path: exit-question-2
 - number: 3
   text: Has this incident occurred within the last 6 months?
   slug: when
@@ -26,4 +26,4 @@
     - text: "Yes, this incident has occurred with the last 6 months"
       path: success
     - text: "No, this incident occurred over 6 months ago"
-      path: exit-when
+      path: exit-question-3

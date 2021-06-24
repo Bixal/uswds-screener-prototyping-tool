@@ -1,6 +1,6 @@
 ---
 layout: exit
-title: Exit What 2
+title: Exit Question 2
 back: question-2.html
 ---
 

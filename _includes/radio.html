@@ -1,4 +1,4 @@
-{% assign items = site.data.questions-yn | where: "number", page.number %}
+{% assign items = site.data.questions | where: "number", page.number %}
 {% for item in items %}
 <fieldset class="usa-fieldset" id="question">    
     <legend class="usa-legend maxw-tablet">
