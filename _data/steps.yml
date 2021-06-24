@@ -1,0 +1,12 @@
+# Configure step indicator
+# Status options: completed, current, not completed
+- label: Before you file
+  status: current
+- label: Personal information
+  status: not completed
+- label: Complaint details
+  status: not completed
+- label: Supporting documentation
+  status: not completed
+- label: Sign and submit
+  status: not completed

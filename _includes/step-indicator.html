@@ -1,6 +1,6 @@
 <div class="usa-step-indicator margin-top-1 margin-bottom-0 border-bottom-1px padding-bottom-2 border-base-light" aria-label="progress">
   <ol class="usa-step-indicator__segments">
-    {% for step in site.steps %}
+    {% for step in site.data.steps %}
     {% assign item = step.status %}
     {% case item %}
     {% when "completed" %}
@@ -36,8 +36,8 @@
   </ol>
   <div class="usa-step-indicator__header">
     <span class="usa-step-indicator__heading tablet:display-none font-sans-md text-primary">
-      {% assign currentStep = site.steps | where: "step.status", "current" %}
-      <span class="usa-step-indicator__heading-text">{{ currentStep }}</span>
+      {% assign currentStep = site.data.steps | where: step.status, "current" %}
+      <span class="usa-step-indicator__heading-text">{{ currentStep.label }}</span>
     </span>
   </div>
 </div>
