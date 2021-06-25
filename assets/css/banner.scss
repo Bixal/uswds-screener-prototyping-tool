@@ -2,7 +2,7 @@
 ---
 
 .complaint-screener-hero {
-  background-image: url({{ site.title }});
+  background-image: url({{ site.hero-image }});
   background-position: center;
   background-size: cover;
   background-blend-mode: overlay;
