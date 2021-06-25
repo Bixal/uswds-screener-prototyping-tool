@@ -2,7 +2,7 @@
 ---
 
 .complaint-screener-hero {
-  background-image: url(../img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg);
+  background-image: url({{ site.title }});
   background-position: center;
   background-size: cover;
   background-blend-mode: overlay;
