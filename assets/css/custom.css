@@ -1,3 +1,11 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "banner";
+
+
 body * {
   font-family: "Public Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
@@ -15,12 +23,3 @@ h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
-.complaint-screener-hero {
-  background-image: url(../img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: overlay;
-  padding-top: 6rem;
-  padding-bottom: 2rem;
-  border-bottom: 4px #0050d8 solid;
-}
