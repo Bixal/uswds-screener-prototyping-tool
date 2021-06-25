@@ -26,3 +26,5 @@ collections:
 
 sass:
     sass_dir: _sass
+
+hero-image: "../img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg"
