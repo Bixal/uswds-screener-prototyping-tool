@@ -1,0 +1,12 @@
+---
+---
+
+.complaint-screener-hero {
+  background-image: url({{ site.hero-image }});
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  border-bottom: 4px #0050d8 solid;
+}
