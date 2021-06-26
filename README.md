@@ -1,4 +1,4 @@
-# Screener Prototyping Template
+# USWDS Screener Prototyping Tool
 
 At [Bixal](https://www.bixal.com/), we believe fast cycles of prototyping and testing accelerate learning, reduce risk, and improve outcomes. We started a dedicated internal team to explore new processes and tools for using web-based prototyping to help our delivery teams lower the barriers to making ideas more tangible more quickly. With our focus on speed, tangibility, reusability, and openness, we demonstrate what's possible with rapid prototyping, lean research, content libraries, and design frameworks. 
 
@@ -50,7 +50,7 @@ It takes a few seconds to go live. After that you can see any changes you make t
 
 ### Configuring settings
 
-You'll want to change the following settings in the config file ([_config.yml](/blob/main/_config.yml)):
+You'll want to change the following settings in the config file ([_config.yml](_config.yml)):
 
 - Title: The title of the site that shows up in the browser tab and on the homepage.
 - Description: The description that shows up on the homepage and also the meta description for search engine optimization.
@@ -80,6 +80,14 @@ See the GitHub Guide, [Mastering Markdown](https://guides.github.com/features/ma
 1. On the `Code` tab, press the `Add file` button.
 1. Upload a markdown file (.md) or create one in the browser.
 1. If you create one, name the file similar to the existing ones for that content type, and make it's in the same place by setting file path.
+
+### Changing the homepage image
+
+1. Upload the new image to `assets/img`.
+1. Open `_config.yml`.
+1. Update the `homepage-image` setting to "../img" and the new file name.
+
+> *Tip*: If the image you want to use is already hosted somewhere else, you can enter the full URL for this setting.
 
 ## Team
 
