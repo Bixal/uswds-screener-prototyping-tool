@@ -6,7 +6,7 @@ One issue we see commonly across government websites is the need for people to f
 
 ## Features
 
-- **Custom questions**: Set up any number of questions with their own answer text, related resources, and pathing based on responses.
+- **Custom questions**: Set up any number of questions with their own answer text, related resources, and pathing based on responses. (Radio buttons only for now.)
 - **Simple logic flow**: For each answer, direct people to the next question, an exit page, or jump ahead to the success page.
 - **Linked resources**: Each question and exit page can include resource content stored in its own plain-text pages.
 - **Step indictor**: Show people where they are in the process, even if you're not building the whole thing.
