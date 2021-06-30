@@ -9,7 +9,7 @@ One issue we see commonly across government websites is the need for people to f
 - **Custom questions**: Set up any number of questions with their own answer text, related resources, and pathing based on responses. (Radio buttons only for now.)
 - **Simple logic flow**: For each answer, direct people to the next question, an exit page, or jump ahead to the success page.
 - **Linked resources**: Each question and exit page can include resource content stored in its own plain-text pages.
-- **Step indictor**: Show people where they are in the process, even if you're not building the whole thing.
+- **Step indicator**: Show people where they are in the process, even if you're not building the whole thing.
 - **No code**: Most customization can be done by creating and editing plain-text files. No need to mess with code for the included features.
 - **U.S. Web Design System**: Built on [USWDS](https://designsystem.digital.gov/) for the best in accessible, responsive, usable web experiences for government-focused sites.
 
