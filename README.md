@@ -32,13 +32,13 @@ This is how the basic logic flow works:
 
 ### Getting started
 
-1. If you don't have one, create a GitHub account.
-1. On the repo homepage, press the `Use this template` button.
+1. If you don't have one, [create a GitHub account](https://github.com/signup).
+1. On the [Code tab](/), press the `Use this template` button.
 1. Finish creating your copy of the repo.
 
 ### Going live using GitHub Pages
 
-GitHub Pages will compile and host your site automatically. You just need to enable the feature. Do this first so you can see your changes in the browser without having to run the site locally.
+GitHub Pages will compile and host your site automatically. Enable this feature first so you can see your changes in the browser without having to run the site locally.
 
 1. Go to the `Settings` tab.
 1. Go to `Pages` in the side navigation.
