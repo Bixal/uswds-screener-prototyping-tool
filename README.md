@@ -36,17 +36,17 @@ This is how the basic logic flow works:
 1. On the `Code` tab of the repository homepage, press the `Use this template` button.
 1. Finish creating your copy of the repo.
 
-### Going live using GitHub Pages
+### Go live using GitHub Pages
 
 GitHub Pages will compile and host your site automatically. Enable this feature first so you can see your changes in the browser without having to run the site locally.
+
+> Note: It takes a few seconds to a minutes to go live, so the first time you go to the site, you may see a "404: Page Not Found" error. After it's live, you should see any changes you make to the `main` branch at the Pages URL, usually within a few seconds.
 
 1. Go to the `Settings` tab.
 1. Go to `Pages` in the side navigation.
 1. In the `Source` section, set the branch to `main` and press Save.
 
-It takes a few seconds to go live. After that you can see any changes you make to the branch at the URL provided, usually within a few seconds.
-
-> *Tip*: Copy the Pages URL and add it to your repo About section for easy access.
+> *Tip*: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon.
 
 ### Configuring settings
 
