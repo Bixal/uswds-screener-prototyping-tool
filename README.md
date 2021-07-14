@@ -30,6 +30,10 @@ This is how the basic logic flow works:
 
 ## How to
 
+### Speak GitHub
+
+GitHub uses some different language to describe things and actions you're probably already familiar with. See this handy [GitHub Glossary](https://github.com/Bixal/methods/wiki/GitHub-glossary) if you're not sure about some of the terms used in these instructions.
+
 ### Make your own copy of the repository
 
 1. If you don't have one, [create a GitHub account](https://github.com/signup).
