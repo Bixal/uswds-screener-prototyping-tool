@@ -70,13 +70,13 @@ You'll want to change the following settings in the config file for your site to
 
 > *Tip*: Add a short description about the change you made before committing.
 
-### Editing rich text content
+### Edit rich text content
 
-Content for the home page, exit pages, and resource pages is stored in Markdown format. This is a simple way to structure and format content that is both human- and machine-readable.
-
-You can open, edit, and save these pages the same way as questions.
+Content for the homepage, exit pages, and resource pages is stored in Markdown format. This is a simple way to structure and format content that is both human- and machine-readable.
 
 See the GitHub Guide, [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for a reference on how to format content.
+
+You can open, edit, and save these pages the same way as described in [Edit questions](#edit-questions) above.
 
 ### Creating new content
 
