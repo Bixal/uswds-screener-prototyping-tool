@@ -33,7 +33,7 @@ This is how the basic logic flow works:
 ### Getting started
 
 1. If you don't have one, create a GitHub account.
-1. On the repo homepage, press the `Use this template` button.
+1. On the [repo homepage](/), press the `Use this template` button.
 1. Finish creating your copy of the repo.
 
 ### Going live using GitHub Pages
