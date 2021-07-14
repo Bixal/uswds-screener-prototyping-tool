@@ -78,11 +78,11 @@ See the GitHub Guide, [Mastering Markdown](https://guides.github.com/features/ma
 
 You can open, edit, and save these pages the same way as described in [Edit questions](#edit-questions) above.
 
-### Creating new content
+### Create new content
 
-1. On the `Code` tab, press the `Add file` button.
+1. On the `Code` tab of the repository homepage, press the `Add file` button.
 1. Upload a markdown file (.md) or create one in the browser.
-1. If you create one, name the file similar to the existing ones for that content type, and make it's in the same place by setting file path.
+1. If you create one, name the file similar to the existing ones for that content type, and make sure it's in the same place by setting file path to match.
 
 ### Changing the homepage image
 
