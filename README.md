@@ -88,10 +88,12 @@ You can use an absolute link to an existing image. Or you can upload an image to
 
 > Tip: Make sure your filename doesn't have any spaces.
 
-1. If you're uploading an image, go to [/assets/img](/assets/img) in your repository. Upload the new image to `assets/img`.
-    - Press the `Add file` button and choose `Upload files`.
+1. If you're uploading an image, go to [/assets/img](/assets/img) in your repository.
+1. Press the `Add file` button and choose `Upload files`.
+1. Save your changes by pressing the `Commit changes` button.
 1. Go to the [_config.yml](_config.yml) in your repository.
 1. Update the `homepage-image` setting to "../img" and the new file name.
+    - Make sure the name you put in the config file matches the filename you uploaded.
     - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
 
 ### Create new content
