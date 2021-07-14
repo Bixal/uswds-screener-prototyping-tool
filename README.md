@@ -30,10 +30,10 @@ This is how the basic logic flow works:
 
 ## How to
 
-### Getting started
+### Make your own copy of the repository
 
 1. If you don't have one, [create a GitHub account](https://github.com/signup).
-1. On the [Code tab](/), press the `Use this template` button.
+1. On the `Code` tab of the repository homepage, press the `Use this template` button.
 1. Finish creating your copy of the repo.
 
 ### Going live using GitHub Pages
