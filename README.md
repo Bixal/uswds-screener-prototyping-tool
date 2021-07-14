@@ -50,7 +50,7 @@ GitHub Pages will compile and host your site automatically. Enable this feature 
 1. Go to `Pages` in the side navigation.
 1. In the `Source` section, set the branch to `main` and press Save.
 
-> *Tip*: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon.
+> *Tip*: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon. You can also see the log of publishing activity by pressing the `Environments` link in the sidebar on the repository homepage.
 
 ### Configure settings
 
