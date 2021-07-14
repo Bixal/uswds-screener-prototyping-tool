@@ -60,16 +60,15 @@ You'll want to change the following settings in the config file for your site to
     - **Baseurl: This needs to match the name of your repo for internal links to work.**
 1. Save your changes by pressing the `Commit changes` button.
 
-### Editing questions
+### Edit questions
 
-1. Click on a question file in the `Code` tab.
+1. Click on a question file in the `Code` tab, for example, [question-1.md](question-1.md).
 1. Press the `Edit this file` button (pencil icon).
-1. Make changes to the question settings.
+1. Make changes to the question `text` and `answers` content as desired.
+1. You can also change some navigation settings, like what page the back button for the question goes to, if needed.
 1. Save your changes by pressing the `Commit changes` button.
 
 > *Tip*: Add a short description about the change you made before committing.
-
-> *Pro tip*: To use the version control features of GitHub for trying alternate versions of your screener, you can save changes to different "branch" and move them to the main branch later.
 
 ### Editing rich text content
 
