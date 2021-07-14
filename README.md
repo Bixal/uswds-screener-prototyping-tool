@@ -48,13 +48,17 @@ GitHub Pages will compile and host your site automatically. Enable this feature 
 
 > *Tip*: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon.
 
-### Configuring settings
+### Configure settings
 
-You'll want to change the following settings in the config file ([_config.yml](_config.yml)):
+You'll want to change the following settings in the config file for your site to work properly:
 
-- Title: The title of the site that shows up in the browser tab and on the homepage.
-- Description: The description that shows up on the homepage and also the meta description for search engine optimization.
-- **Baseurl: This needs to match the name of your repo for internal links to work.**
+1. Go to the [_config.yml](_config.yml) in your repository.
+1. Press the `Edit this file` button (pencil icon).
+1. Make changes to following settings:
+    - Title: The title of the site that shows up in the browser tab and on the homepage.
+    - Description: The description that shows up on the homepage and also the meta description for search engine optimization.
+    - **Baseurl: This needs to match the name of your repo for internal links to work.**
+1. Save your changes by pressing the `Commit changes` button.
 
 ### Editing questions
 
