@@ -38,7 +38,7 @@ GitHub uses some different language to describe things and actions you're probab
 
 1. If you don't have one, [create a GitHub account](https://github.com/signup).
 1. On the `Code` tab of the repository homepage, press the `Use this template` button.
-1. Finish creating your copy of the repo.
+1. Finish creating your copy of the repository.
 
 ### Go live using GitHub Pages
 
@@ -61,7 +61,7 @@ You'll want to change the following settings in the config file for your site to
 1. Make changes to following settings:
     - Title: The title of the site that shows up in the browser tab and on the homepage.
     - Description: The description that shows up on the homepage and also the meta description for search engine optimization.
-    - **Baseurl: This needs to match the name of your repo for internal links to work.**
+    - **Baseurl: This needs to match the name of your repository for internal links to work.**
 1. Save your changes by pressing the `Commit changes` button.
 
 ### Edit questions
@@ -92,7 +92,7 @@ You can use an absolute link to an existing image. Or you can upload an image to
 1. Press the `Add file` button and choose `Upload files`.
 1. Save your changes by pressing the `Commit changes` button.
 1. Go to the [_config.yml](_config.yml) in your repository.
-1. Update the `homepage-image` setting to "../img" and the new file name.
+1. Update the `homepage-image` setting to "../img" and the new filename.
     - Make sure the name you put in the config file matches the filename you uploaded.
     - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
 
