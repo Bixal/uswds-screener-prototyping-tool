@@ -1,8 +1,33 @@
+### REQUIRED SETTINGS ###
+
 # Set a plain language title for the site.
 title: USGov Health Information Rights Complaint Form
 
 # Write a short description for the site. This is used for "meta description."
 description: File a complaint for violations of health information privacy and access rights
+
+# Enable for live hosting on GitHub Pages.
+# It should start with a slash (/) and then match the name of your repository exactly.
+baseurl: /complaint-screener
+
+# =============================================================================
+
+### CONTENT SETTINGS ###
+
+# Change the image on the homepage.
+# - You can use an absolute link to an existing image.
+# - Or you can upload an image to the repository and use a relative link, starting with "../img/"
+# - Make sure your filename doesn't have any spaces.
+homepage-image: "../img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg"
+
+# Define content collections
+collections:
+  resources:
+    output: true
+
+# =============================================================================
+
+### OPTIONAL SETTINGS ###
 
 # Set the language for the site. Used for "html lang." Default is English.
 lang: en
@@ -15,16 +40,3 @@ github: [metadata]
 
 # Remove generation of additional style.css
 theme: null
-
-# Enable for live hosting on GitHub Pages
-baseurl: /complaint-screener
-
-# Define content collections
-collections:
-  resources:
-    output: true
-
-sass:
-    sass_dir: _sass
-
-homepage-image: "../img/national-cancer-institute-L8tWZT4CcVQ-unsplash.jpg"

@@ -30,64 +30,77 @@ This is how the basic logic flow works:
 
 ## How to
 
-### Getting started
+### Speak GitHub
 
-1. If you don't have one, create a GitHub account.
-1. On the repo homepage, press the `Use this template` button.
-1. Finish creating your copy of the repo.
+GitHub uses some different language to describe things and actions you're probably already familiar with. See this handy [GitHub Glossary](https://github.com/Bixal/methods/wiki/GitHub-glossary) if you're not sure about some of the terms used in these instructions.
 
-### Going live using GitHub Pages
+### Make your own copy of the repository
 
-GitHub Pages will compile and host your site automatically. You just need to enable the feature. Do this first so you can see your changes in the browser without having to run the site locally.
+1. If you don't have one, [create a GitHub account](https://github.com/signup).
+1. On the `Code` tab of the repository homepage, press the `Use this template` button.
+1. Finish creating your copy of the repository.
+
+### Go live using GitHub Pages
+
+GitHub Pages will compile and host your site automatically. Enable this feature first so you can see your changes in the browser without having to run the site locally.
+
+> Note: It takes a few seconds to a minutes to go live, so the first time you go to the site, you may see a "404: Page Not Found" error. After it's live, you should see any changes you make to the `main` branch at the Pages URL, usually within a few seconds.
 
 1. Go to the `Settings` tab.
 1. Go to `Pages` in the side navigation.
 1. In the `Source` section, set the branch to `main` and press Save.
 
-It takes a few seconds to go live. After that you can see any changes you make to the branch at the URL provided, usually within a few seconds.
+> *Tip*: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon. You can also see the log of publishing activity by pressing the `Environments` link in the sidebar on the repository homepage.
 
-> *Tip*: Copy the Pages URL and add it to your repo About section for easy access.
+### Configure settings
 
-### Configuring settings
+You'll want to change the following settings in the config file for your site to work properly:
 
-You'll want to change the following settings in the config file ([_config.yml](_config.yml)):
-
-- Title: The title of the site that shows up in the browser tab and on the homepage.
-- Description: The description that shows up on the homepage and also the meta description for search engine optimization.
-- **Baseurl: This needs to match the name of your repo for internal links to work.**
-
-### Editing questions
-
-1. Click on a question file in the `Code` tab.
+1. Go to the [_config.yml](_config.yml) in your repository.
 1. Press the `Edit this file` button (pencil icon).
-1. Make changes to the question settings.
+1. Make changes to following settings:
+    - Title: The title of the site that shows up in the browser tab and on the homepage.
+    - Description: The description that shows up on the homepage and also the meta description for search engine optimization.
+    - **Baseurl: This needs to match the name of your repository for internal links to work.**
+1. Save your changes by pressing the `Commit changes` button.
+
+### Edit questions
+
+1. Click on a question file in the `Code` tab, for example, [question-1.md](question-1.md).
+1. Press the `Edit this file` button (pencil icon).
+1. Make changes to the question `text` and `answers` content as desired.
+1. You can also change some navigation settings, like what page the back button for the question goes to, if needed.
 1. Save your changes by pressing the `Commit changes` button.
 
 > *Tip*: Add a short description about the change you made before committing.
 
-> *Pro tip*: To use the version control features of GitHub for trying alternate versions of your screener, you can save changes to different "branch" and move them to the main branch later.
+### Edit rich text content
 
-### Editing rich text content
-
-Content for the home page, exit pages, and resource pages is stored in Markdown format. This is a simple way to structure and format content that is both human- and machine-readable.
-
-You can open, edit, and save these pages the same way as questions.
+Content for the homepage, exit pages, and resource pages is stored in Markdown format. This is a simple way to structure and format content that is both human- and machine-readable.
 
 See the GitHub Guide, [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for a reference on how to format content.
 
-### Creating new content
+You can open, edit, and save these pages the same way as described in [Edit questions](#edit-questions) above.
 
-1. On the `Code` tab, press the `Add file` button.
+### Change the homepage image
+
+You can use an absolute link to an existing image. Or you can upload an image to the repository and use a relative link.
+
+> Tip: Make sure your filename doesn't have any spaces.
+
+1. If you're uploading an image, go to [/assets/img](/assets/img) in your repository.
+1. Press the `Add file` button and choose `Upload files`.
+1. Save your changes by pressing the `Commit changes` button.
+1. Go to the [_config.yml](_config.yml) in your repository.
+1. Update the `homepage-image` setting to "../img" and the new filename.
+    - Make sure the name you put in the config file matches the filename you uploaded.
+    - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
+
+### Create new content
+
+1. On the `Code` tab of the repository homepage, press the `Add file` button.
 1. Upload a markdown file (.md) or create one in the browser.
-1. If you create one, name the file similar to the existing ones for that content type, and make it's in the same place by setting file path.
-
-### Changing the homepage image
-
-1. Upload the new image to `assets/img`.
-1. Open `_config.yml`.
-1. Update the `homepage-image` setting to "../img" and the new file name.
-
-> *Tip*: If the image you want to use is already hosted somewhere else, you can enter the full URL for this setting.
+1. If you create one, name the file similar to the existing ones for that content type, and make sure it's in the same place by setting file path to match.
 
 ## Team
 
