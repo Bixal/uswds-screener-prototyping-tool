@@ -84,13 +84,17 @@ You can open, edit, and save these pages the same way as described in [Edit ques
 1. Upload a markdown file (.md) or create one in the browser.
 1. If you create one, name the file similar to the existing ones for that content type, and make sure it's in the same place by setting file path to match.
 
-### Changing the homepage image
+### Change the homepage image
 
-1. Upload the new image to `assets/img`.
-1. Open `_config.yml`.
+You can use an absolute link to an existing image. Or you can upload an image to the repository and use a relative link.
+
+> Tip: Make sure your filename doesn't have any spaces.
+
+1. If you're uploading an image, go to [/assets/img](/assets/img) in your repository. Upload the new image to `assets/img`.
+    - Press the `Add file` button and choose `Upload files`.
+1. Go to the [_config.yml](_config.yml) in your repository.
 1. Update the `homepage-image` setting to "../img" and the new file name.
-
-> *Tip*: If the image you want to use is already hosted somewhere else, you can enter the full URL for this setting.
+    - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
 
 ## Team
 
