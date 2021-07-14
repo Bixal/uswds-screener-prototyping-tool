@@ -102,6 +102,18 @@ You can use an absolute link to an existing image. Or you can upload an image to
 1. Upload a markdown file (.md) or create one in the browser.
 1. If you create one, name the file similar to the existing ones for that content type, and make sure it's in the same place by setting file path to match.
 
+### Link resources content
+
+One or more sections of resource content can be added to question and exit pages. Each one appears as a collapsable accordion component.
+
+1. Create a new file in markdown (.md) format in the `_resources` folder.
+1. For the `related-page-name` setting, enter the filename of the page you want the resource to appear on, for example, `q2-exit.md`.
+1. On the related page, enter `yes` for the `resources` setting.
+
+This creates the link between the two pieces of content and will result in the resources showing up on that page.
+
+> Tip: To sort the resources in the particular order, prepend numbers to the resources filename. This only affects resources that appear on the same page, so you don't have to worry about numbering everything.
+
 ## Team
 
 This project was built by the Rapid Response Team at Bixal: [Philip Levy](https://github.com/pglevy), [Brianna Naolu](https://github.com/bnaolu), and [Kayla Chumley](https://github.com/kbchumley), with a special guest appearance by [Emilia Nardi](https://github.com/orgs/Bixal/people/e-nardi) for subject matter expertise and UX support.
