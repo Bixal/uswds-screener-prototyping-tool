@@ -78,12 +78,6 @@ See the GitHub Guide, [Mastering Markdown](https://guides.github.com/features/ma
 
 You can open, edit, and save these pages the same way as described in [Edit questions](#edit-questions) above.
 
-### Create new content
-
-1. On the `Code` tab of the repository homepage, press the `Add file` button.
-1. Upload a markdown file (.md) or create one in the browser.
-1. If you create one, name the file similar to the existing ones for that content type, and make sure it's in the same place by setting file path to match.
-
 ### Change the homepage image
 
 You can use an absolute link to an existing image. Or you can upload an image to the repository and use a relative link.
@@ -95,6 +89,12 @@ You can use an absolute link to an existing image. Or you can upload an image to
 1. Go to the [_config.yml](_config.yml) in your repository.
 1. Update the `homepage-image` setting to "../img" and the new file name.
     - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
+
+### Create new content
+
+1. On the `Code` tab of the repository homepage, press the `Add file` button.
+1. Upload a markdown file (.md) or create one in the browser.
+1. If you create one, name the file similar to the existing ones for that content type, and make sure it's in the same place by setting file path to match.
 
 ## Team
 
