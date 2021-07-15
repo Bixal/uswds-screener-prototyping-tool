@@ -44,7 +44,7 @@ GitHub uses some different language to describe things and actions you're probab
 
 GitHub Pages will compile and host your site automatically. Enable this feature first so you can see your changes in the browser without having to run the site locally.
 
-> Note: It takes a few seconds to a minutes to go live, so the first time you go to the site, you may see a "404: Page Not Found" error. After it's live, you should see any changes you make to the `main` branch at the Pages URL, usually within a few seconds.
+> **Note: It takes a few seconds to a minutes to go live, so the first time you go to the site, you may see a "404: Page Not Found" error. After it's live, you should see any changes you make to the `main` branch at the Pages URL, usually within a few seconds.**
 
 1. Go to the `Settings` tab.
 1. Go to `Pages` in the side navigation.
