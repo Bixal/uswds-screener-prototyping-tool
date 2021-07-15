@@ -54,6 +54,8 @@ GitHub Pages will compile and host your site automatically. Enable this feature 
 
 > *Tip*: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon. You can also see the log of publishing activity by pressing the `Environments` link in the sidebar on the repository homepage.
 
+![Screencast of how to go live using GitHub Pages](assets/img/how-to/enable-pages.gif)
+
 ### Configure settings
 
 You'll want to change the following settings in the config file for your site to work properly:
@@ -65,6 +67,8 @@ You'll want to change the following settings in the config file for your site to
     - Description: The description that shows up on the homepage and also the meta description for search engine optimization.
     - **Baseurl: This needs to match the name of your repository for internal links to work.**
 1. Save your changes by pressing the `Commit changes` button.
+
+![Screencast of how to configure settings](assets/img/how-to/edit-config.gif)
 
 ### Edit questions
 
@@ -100,7 +104,7 @@ You can use an absolute link to an existing image. Or you can upload an image to
     - Make sure the name you put in the config file matches the filename you uploaded.
     - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
 
-![Screen case of how to change your homepage image](assets/img/how-to/change-homepage-image.gif)
+![Screencast of how to change your homepage image](assets/img/how-to/change-homepage-image.gif)
 
 ### Create new content
 
