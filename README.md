@@ -17,10 +17,10 @@ One issue we see commonly across government websites is the need for people to f
 
 The screener includes the following content types:
 
-- **Home**: The starting page to set context for your screener.
-- **Question**: A single-question page template.
-- **Exit**: Pages to direct people who filter out of the screener based on their responses.
-- **Success**: The final page for people who have made it through the screener.
+- **Home**: The starting page to set context for your screener ([index.md](index.md)).
+- **Question**: A single-question page template([question-1.md](question-1.md)).
+- **Exit**: Pages to direct people who filter out of the screener based on their responses([q1-exit.md](index.md)).
+- **Success**: The final page for people who have made it through the screener([success.md](success.md)).
 
 ## Flow map
 
