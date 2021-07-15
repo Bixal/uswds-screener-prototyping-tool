@@ -101,6 +101,9 @@ You can use an absolute link to an existing image. Or you can upload an image to
     - Make sure the name you put in the config file matches the filename you uploaded.
     - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
 
+![Screen case of how to change your homepage image](https://user-images.githubusercontent.com/52218695/125839123-1192312c-2317-4ef7-88a2-1071dce800a1.gif)
+
+
 ### Create new content
 
 1. On the `Code` tab of the repository homepage, press the `Add file` button.
