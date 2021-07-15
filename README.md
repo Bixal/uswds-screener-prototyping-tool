@@ -40,6 +40,8 @@ GitHub uses some different language to describe things and actions you're probab
 1. On the `Code` tab of the repository homepage, press the `Use this template` button.
 1. Finish creating your copy of the repository.
 
+![Screencast of how to make your own copy of the repository](assets/img/how-to/make-copy.gif)
+
 ### Go live using GitHub Pages
 
 GitHub Pages will compile and host your site automatically. Enable this feature first so you can see your changes in the browser without having to run the site locally.
