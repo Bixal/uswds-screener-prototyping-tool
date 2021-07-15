@@ -76,8 +76,7 @@ You'll want to change the following settings in the config file for your site to
 
 > *Tip*: Add a short description about the change you made before committing.
 
-![Screencast of how to edit your questions](https://user-images.githubusercontent.com/52218695/125824378-653e9a26-e991-4159-a32f-88ffc6cac7bc.gif)
-
+![Screencast of how to edit your questions](https://user-images.githubusercontent.com/52218695/125844602-f94330a8-054f-4c90-8066-0389588a81d3.gif)
 
 ### Edit rich text content
 
@@ -101,8 +100,7 @@ You can use an absolute link to an existing image. Or you can upload an image to
     - Make sure the name you put in the config file matches the filename you uploaded.
     - If you're using an image hosted somewhere else, replace everything in quotes with the full URL, for example, `https://mysite.com/my-image.jpg`.
 
-![Screen case of how to change your homepage image](https://user-images.githubusercontent.com/52218695/125839123-1192312c-2317-4ef7-88a2-1071dce800a1.gif)
-
+![Screen case of how to change your homepage image](https://user-images.githubusercontent.com/52218695/125844644-825b1108-aa39-4476-b1a6-2c02f9cab079.gif)
 
 ### Create new content
 
