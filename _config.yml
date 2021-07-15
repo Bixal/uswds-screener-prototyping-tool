@@ -8,7 +8,7 @@ description: File a complaint for violations of health information privacy and a
 
 # Enable for live hosting on GitHub Pages.
 # It should start with a slash (/) and then match the name of your repository exactly.
-baseurl: /complaint-screener
+baseurl: /uswds-screener-prototyping-tool
 
 # =============================================================================
 
