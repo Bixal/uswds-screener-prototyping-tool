@@ -76,6 +76,9 @@ You'll want to change the following settings in the config file for your site to
 
 > *Tip*: Add a short description about the change you made before committing.
 
+![Screencast of how to edit your questions](https://user-images.githubusercontent.com/52218695/125824378-653e9a26-e991-4159-a32f-88ffc6cac7bc.gif)
+
+
 ### Edit rich text content
 
 Content for the homepage, exit pages, and resource pages is stored in Markdown format. This is a simple way to structure and format content that is both human- and machine-readable.
