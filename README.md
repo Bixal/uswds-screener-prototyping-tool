@@ -86,7 +86,7 @@ You can open, edit, and save these pages the same way as described in [Edit ques
 
 You can use an absolute link to an existing image. Or you can upload an image to the repository and use a relative link.
 
-    Tip: Make sure your filename doesn't have any spaces.
+> *Tip*: Make sure your filename doesn't have any spaces.
 
 1. If you're uploading an image, go to [/assets/img](/assets/img) in your repository.
 1. Press the `Add file` button and choose `Upload files`.
@@ -112,7 +112,7 @@ One or more sections of resource content can be added to question and exit pages
 
 This creates the link between the two pieces of content and will result in the resources showing up on that page.
 
-> Tip: To sort the resources in the particular order, prepend numbers to the resources filename. This only affects resources that appear on the same page, so you don't have to worry about numbering everything.
+> *Tip*: To sort the resources in the particular order, prepend numbers to the resources filename. This only affects resources that appear on the same page, so you don't have to worry about numbering everything.
 
 ## Team
 
