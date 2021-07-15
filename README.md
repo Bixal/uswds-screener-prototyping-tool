@@ -44,13 +44,13 @@ GitHub uses some different language to describe things and actions you're probab
 
 GitHub Pages will compile and host your site automatically. Enable this feature first so you can see your changes in the browser without having to run the site locally.
 
-    Note: It takes a few seconds to a minutes to go live, so the first time you go to the site, you may see a "404: Page Not Found" error. After it's live, you should see any changes you make to the `main` branch at the Pages URL, usually within a few seconds.
+> Note: It takes a few seconds to a minutes to go live, so the first time you go to the site, you may see a "404: Page Not Found" error. After it's live, you should see any changes you make to the `main` branch at the Pages URL, usually within a few seconds.
 
 1. Go to the `Settings` tab.
 1. Go to `Pages` in the side navigation.
 1. In the `Source` section, set the branch to `main` and press Save.
 
-    Tip: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon. You can also see the log of publishing activity by pressing the `Environments` link in the sidebar on the repository homepage.
+> *Tip*: Copy the Pages URL and add it to your repository About section for easy access. The About section is on in the sidebar of the repository homepage. To edit it, click the gear icon. You can also see the log of publishing activity by pressing the `Environments` link in the sidebar on the repository homepage.
 
 ### Configure settings
 
@@ -72,7 +72,7 @@ You'll want to change the following settings in the config file for your site to
 1. You can also change some navigation settings, like what page the back button for the question goes to, if needed.
 1. Save your changes by pressing the `Commit changes` button.
 
-    Tip: Add a short description about the change you made before committing.
+> *Tip*: Add a short description about the change you made before committing.
 
 ### Edit rich text content
 
@@ -112,7 +112,7 @@ One or more sections of resource content can be added to question and exit pages
 
 This creates the link between the two pieces of content and will result in the resources showing up on that page.
 
-    Tip: To sort the resources in the particular order, prepend numbers to the resources filename. This only affects resources that appear on the same page, so you don't have to worry about numbering everything.
+> Tip: To sort the resources in the particular order, prepend numbers to the resources filename. This only affects resources that appear on the same page, so you don't have to worry about numbering everything.
 
 ## Team
 
