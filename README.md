@@ -116,7 +116,7 @@ You can use an absolute link to an existing image. Or you can upload an image to
 
 One or more sections of resource content can be added to question and exit pages. Each one appears as a collapsable accordion component.
 
-1. Create a new file in markdown (.md) format in the `_resources` folder.
+1. Create a new file in markdown (.md) format in the [_resources](_resources) folder.
 1. For the `related-page-name` setting, enter the filename of the page you want the resource to appear on, for example, `q2-exit.md`.
 1. On the related page, enter `yes` for the `resources` setting.
 
