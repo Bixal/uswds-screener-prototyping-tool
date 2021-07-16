@@ -65,7 +65,7 @@ You'll need to change a few settings in the config file for your site to work pr
 1. Make changes to following settings:
     - Title: The title of the site that shows up in the browser tab and on the homepage.
     - Description: The description that shows up on the homepage and also the meta description for search engine optimization.
-    - **Baseurl: This needs to match the name of your repository for internal links to work.**
+    - Baseurl: *This needs to match the name of your repository for internal links to work.*
 1. Save your changes by pressing the `Commit changes` button.
 
 ![Screencast of how to configure settings](assets/img/how-to/edit-config.gif)
