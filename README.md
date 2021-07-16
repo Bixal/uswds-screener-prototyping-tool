@@ -58,7 +58,7 @@ GitHub Pages will compile and host your site automatically. Enable this feature 
 
 ### Configure settings
 
-You'll want to change the following settings in the config file for your site to work properly:
+You'll need to change a few settings in the config file for your site to work properly.
 
 1. Go to the [_config.yml](_config.yml) in your repository.
 1. Press the `Edit this file` button (pencil icon).
