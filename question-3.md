@@ -7,7 +7,7 @@ text: Has this incident occurred within the last 6 months?
 # The answer options and page name of destination associated with each answer
 # Add as many as you need.
 answers:
-  - text: "Yes, this incident has occurred with the last 6 months"
+  - text: "Yes, this incident has occurred within the last 6 months"
     path: success
   - text: "No, this incident occurred over 6 months ago"
     path: q3-exit
